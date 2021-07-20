@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <title>Big Data Project</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+
+          font-family:Tahoma;
+          font-size:medium;
+        }
+        </style>
+</head>
+<body dir="rtl">
+    
+    <h3>نتایج کوئری</h3>
+    <table >
+       
+        {% for d in data %}
+           
+            <tr>
+                <td>  {{ d }}</td>
+        </tr>
+        {% endfor %}
+        </ul>
+    </table>
+
+</body>
+</html>
+
